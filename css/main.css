@@ -1,0 +1,67 @@
+/*  */
+
+
+/******************* Custom color variables ********************/
+
+
+/******************* Mobile-size styles ********************/
+
+/* Main grid - header / main / footer */
+.main-container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+}
+
+.flex-item.title {
+    flex-basis: 100%;
+    text-align: center; 
+}
+
+
+
+/******************* Tablet-size styles ********************/
+@media only screen and (min-width: 600px) {
+
+    .nav-container {
+        justify-content: space-between;
+    }
+
+    .flex-item.title {
+        flex-basis: auto;
+        flex-grow: auto;
+    }
+    .flex-item.item {
+        flex-basis: content;
+    }
+    
+}
+
+
+/******************* Desktop-size styles ********************/
+
+
+
+
+/* Color backgrounds for development ONLY - delete after */
+.blue {
+    background-color: rgb(245, 245, 169);
+}
+
+.red {
+    background-color: rgb(240, 161, 177);
+}
+
+.green {
+    background-color: rgb(164, 247, 164);
+}
+
