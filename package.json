@@ -1,0 +1,11 @@
+{
+  "name": "kriszdev",
+  "version": "1.0.0",
+  "description": "Official website for Kriszdev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krisztina Pap",
+  "license": "ISC"
+}
