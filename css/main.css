@@ -33,16 +33,17 @@
 @media only screen and (min-width: 600px) {
 
     .nav-container {
-        justify-content: space-between;
+        display: block;
+    }
+    .flex-item {
+        float: right;
     }
 
     .flex-item.title {
         flex-basis: auto;
-        flex-grow: auto;
+        float: left;
     }
-    .flex-item.item {
-        flex-basis: content;
-    }
+ 
     
 }
 
